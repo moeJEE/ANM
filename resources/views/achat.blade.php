@@ -60,24 +60,24 @@
               <div class="search-field-holder">
                 <input type="search" class="form-control main-search-input" placeholder="Search for">
                 <i class="ui-close search-close" id="search-close"></i>
-              </div>            
+              </div>
             </form>
           </div>
-        </div>        
+        </div>
       </div> <!-- end fullscreen search -->
 
       <!-- Top Bar -->
       <div class="top-bar hidden-xs">
         <div class="container">
           <div class="top-bar-links flex-parent">
-         
 
-           
+
+
 
           </div>
         </div>
       </div> <!-- end top bar -->
-      
+
       <nav class="navbar navbar-static-top">
         <div class="navigation" id="sticky-nav">
           <div class="container relative">
@@ -93,7 +93,7 @@
                     </a>
                   </div>
                 </div>
-               
+
                 <!-- Mobile cart -->
                 <div class="nav-cart mobile-cart hidden-lg hidden-md">
                   <div class="nav-cart-outer">
@@ -108,7 +108,7 @@
 
               <div class="nav-wrap flex-child">
                 <div class="collapse navbar-collapse text-center" id="navbar-collapse">
-                  
+
                   {{-- <ul class="nav navbar-nav">
 
                     <li class="dropdown">
@@ -149,11 +149,11 @@
                           <div class="megamenu-wrap container">
                             <div class="row">
 
-                      
 
-                             
 
-                            </div> 
+
+
+                            </div>
                           </div>
                         </li>
                       </ul>
@@ -168,8 +168,8 @@
                       </ul>
                     </li> <!-- end elements -->
 
-                  
-                  
+
+
                     <!-- Mobile search -->
                     <li id="mobile-search" class="hidden-lg hidden-md">
                       <form method="get" class="mobile-search">
@@ -186,7 +186,7 @@
 
               <div class="flex-child flex-right nav-right hidden-sm hidden-xs">
                 <ul>
-                  
+
                   <li class="nav-search-wrap style-2 hidden-sm hidden-xs">
                     <a href="#" class="nav-search search-trigger">
                       <i class="fa fa-search"></i>
@@ -196,7 +196,7 @@
                     <div class="nav-cart-outer">
                       <div class="nav-cart-inner">
                         <a href="#" class="nav-cart-icon">
-                          
+
                         </a>
                       </div>
                     </div>
@@ -209,23 +209,23 @@
                               <img src="img/shop/shop_item_1.jpg" alt="">
                             </a>
                           </div>
-                        
+
                           <div class="nav-cart-remove">
                             <a href="#" class="remove"><i class="ui-close"></i></a>
                           </div>
                         </div>
 
-                      
+
                       </div> <!-- end cart items -->
 
-                   
 
-                      
+
+
                     </div>
                   </li>
                 </ul>
               </div>
-          
+
             </div> <!-- end row -->
           </div> <!-- end container -->
         </div> <!-- end navigation -->
@@ -238,19 +238,18 @@
             <!-- Tabs -->
             <div class="text-center">
              <div class="tabs product-tabs">
-             
-               <ul class="nav nav-tabs">                                
+
+               <ul class="nav nav-tabs">
                  <li style="margin-top: 22px;" class="active">
                    <a href="#featured" data-toggle="tab">ACHATEZ UN NOUVEAU TELEPHONE </a>
-                 </li>                                
-                
-             
+                 </li>
+
+
              </div>
            </div>
-         </section>  
+         </section>
         <section>
             <div class="container">
-
             <div class="grid">
                 <div class="grid-item">
                   <div class="card">
@@ -307,14 +306,14 @@
           <!-- Tabs -->
           <div class="text-center">
             <div class="tabs product-tabs">
-            
-              <ul class="nav nav-tabs">                                
+
+              <ul class="nav nav-tabs">
                 <li class="active">
                   <a href="#featured" data-toggle="tab">Collections</a>
-                </li>                                
-                                              
+                </li>
+
               </ul>
-            
+
             </div>
           </div>
 
@@ -326,7 +325,7 @@
           <div class="tab-pane fade in active" id="featured">
 
             <div id="owl-shop-items-slider-1" class="owl-carousel owl-theme">
-              @foreach ($produits as $produit) 
+              @foreach ($produits as $produit)
 
               <div class="product">
                 <div class="product-item hover-trigger">
@@ -334,24 +333,24 @@
                     <a href="{{url('/single/'.$produit->id)}}">
                       <img src="{{asset('/storage/uploads/'.$produit->Image)}}" alt="">
                     </a>
-                  
-                    <div class="hover-2">                    
+
+                    <div class="hover-2">
                       <div class="product-actions">
                         <a href="#" class="product-add-to-wishlist">
                           <i class="fa fa-heart"></i>
                         </a>
-                      </div>                        
+                      </div>
                     </div>
                     <a href="{{url('/single/'.$produit->id)}}" class="product-quickview">Acheter maintenant</a>
                   </div>
-                  <div class="product-details">                      
+                  <div class="product-details">
                     <h3 class="product-title">
                       <a href=""">{{$produit->Model}}</a>
                     </h3>
-                   
+
                   </div>
                   <span class="price">
-                   
+
                     <ins>
                       <span class="amount">{{$produit->Prix}} <b>MAD</b> </span>
                     </ins>
@@ -360,30 +359,30 @@
               </div>
               @endforeach
 
-              
 
-              
 
-             
 
-             
 
-             
+
+
+
+
+
 
             </div> <!-- end slider -->
 
           </div> <!-- end featured -->
 
-         
 
-        
+
+
 
 
         </div>
 
         </div>
       </section> <!-- end tabs/slider products -->
-         
+
       <!-- Footer Type-1 -->
       <footer class="footer footer-type-1">
         <div class="container">
@@ -394,7 +393,7 @@
                 <div class="widget footer-about-us">
                   <img src="img/ANM.png" alt="" class="logo">
                   <div class="footer-socials">
-                  
+
                   </div>
                 </div>
               </div> <!-- end about us -->
@@ -411,16 +410,16 @@
               <div class="col-md-2 col-sm-6 col-xs-12">
                 <div class="widget footer-links">
                   <h5 class="widget-title bottom-line left-align grey">Pages</h5>
-                  <ul class="list-no-dividers">                  
+                  <ul class="list-no-dividers">
                     <li><a href="#">Acheter</a></li>
                     <li><a href="#">Vendre</a></li>
-                 
-                 
+
+
                   </ul>
                 </div>
               </div>
 
-            
+
 
               <div class="col-md-2 col-sm-6 col-xs-12">
                 <div class="widget footer-links">
@@ -435,7 +434,7 @@
               </div>
 
             </div>
-          </div>    
+          </div>
         </div> <!-- end container -->
 
         <div class="bottom-footer">
@@ -444,7 +443,7 @@
 
               <div class="col-sm-6 copyright sm-text-center">
                 <span>
-                  &copy; 2021  by A N M 
+                  &copy; 2021  by A N M
                 </span>
               </div>
 
@@ -453,7 +452,7 @@
                 <i class="fab fa-twitter"></i>
                 <i class="fab fa-instagram"></i>
                 <i class="fab fa-youtube"></i>
-               
+
               </div>
 
             </div>
@@ -470,8 +469,8 @@
   <!-- jQuery Scripts -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/plugins.js"></script>  
+  <script type="text/javascript" src="js/plugins.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>
-    
+
 </body>
 </html>
